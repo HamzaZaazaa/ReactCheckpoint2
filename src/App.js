@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './Style.css'
+import img1 from './imageinsrc.png'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <div>
+    <div className="parentdiv">
+        <h1 className="titlered">REACT CHECKPOINT</h1>
+        <br/>
+        <img src={img1} alt='Go My Code' />
+        <br/>
+        <img src="./imageinpublic.png" alt='Go My Code' />
     </div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Ke90Tje7VS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+      
+  </div>
   );
 }
 

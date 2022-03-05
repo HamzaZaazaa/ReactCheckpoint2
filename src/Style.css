@@ -1,0 +1,8 @@
+.parentdiv {
+    border: solid 1px black;
+    max-width: 100vw;
+}
+.titlered {
+    color: red;
+    text-align: center;
+}
